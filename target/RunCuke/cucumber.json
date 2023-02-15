@@ -1,0 +1,170 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 8013436900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "User should Navigate to sign in page",
+        "description": "",
+        "id": "home-page;user-should-navigate-to-sign-in-page",
+        "after": [
+          {
+            "result": {
+              "duration": 984356500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 161934200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on homepage",
+            "match": {
+              "location": "HomePageSteps.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 491066800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click on sign in button",
+            "match": {
+              "location": "HomePageSteps.iClickOnSignInButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 652237200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click on Email button",
+            "match": {
+              "location": "HomePageSteps.iClickOnEmailButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 492779300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter email \"test01041998@outlook.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test01041998@outlook.com",
+                  "offset": 15
+                }
+              ],
+              "location": "HomePageSteps.iEnterEmail(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 237286900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter password \"Vivek1998\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Vivek1998",
+                  "offset": 18
+                }
+              ],
+              "location": "HomePageSteps.iEnterPassword(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 194560200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click on email sign in button",
+            "match": {
+              "location": "HomePageSteps.iClickOnEmailSignInButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4861416200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I Select Asia Tab",
+            "match": {
+              "location": "HomePageSteps.iSelectAsiaTab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8636571200,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Using search box on the top of page, search for currency pair \"FX:GBPJPY\" and click See overview button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "FX:GBPJPY",
+                  "offset": 63
+                }
+              ],
+              "location": "HomePageSteps.usingSearchBoxOnTheTopOfPageSearchForCurrencyPairAndClickSeeOverviewButton(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 359211800,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I Verify that I am on correct page",
+            "match": {
+              "location": "HomePageSteps.iVerifyThatIAmOnCorrectPage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Home Page",
+    "description": "As user I want to sign in to the application",
+    "id": "home-page",
+    "keyword": "Feature",
+    "uri": "homepage.feature"
+  }
+]
